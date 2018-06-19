@@ -3,6 +3,6 @@ jdk: oraclejdk10
 
 addons:
   sonarcloud:
-    organization: "condessalovelace"
+    organization: "condessalovelace-github"
 script:
 - mvn clean install sonar:sonar
